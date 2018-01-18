@@ -1,0 +1,19 @@
+XX的新年有奖竞猜：
+说有一个数a<10^9, b<10^10000000, b的每一位数字可以变化，每次只可以变一位，求b最少变多少次，其各位值之和大于a的数值？
+比如a = 9, b = 12, b的十位数由1变为9，即92，9+2>a，那么答案就是1次。
+同时需要考虑空间时间复杂度。
+
+
+答复:
+$ solve.lua 18 1994
+solution: always
+$ solve.lua 19 94
+solution: never
+$ solve.lua 99 201720182019
+ ! change b's digital 1 to 9, 3 times
+ ! change b's digital 0 to 9, 3 times
+ ! change b's digital 2 to 9, 3 times
+solution: 9 times
+
+附:
+祝XX永远十八 ^_^"
